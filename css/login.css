@@ -1,0 +1,154 @@
+/**
+ * Created by KS128 on 11/9/16.
+ */
+
+p.login_submit_button button:hover {
+    background: #a9c166;
+    transition-duration: 0.2s;
+}
+.forgot-pass {
+    text-align: right;
+    text-align: -webkit-right;
+}
+.forgot-pass a {
+    text-decoration: none;
+}
+p.login_submit_button {
+    text-align: -webkit-center;
+    margin-top: 20px;
+}
+.guest_login_div label, .registered_user_login label {
+    font-size: 16px;
+}
+.guest_login_div input.submit, .registered_user_login button.submit {
+    padding: 10px 45px !important;
+    font-weight: 600;
+    transition-duration: 0.2s;
+}
+.guest_login_div input, .registered_user_login input, .registered_user_login button {
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-align: -webkit-center;
+    text-align: center;
+}
+p.login-as {
+    font-size: 20px;
+    text-align: -webkit-center;
+    text-align: center;
+    font-weight: 100;
+}
+.login-type-wrap label {
+    font-size: 16px !important;
+    padding: 10px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.login-avatar-img img {
+    width: 100%;
+    height: auto;
+}
+.login-avatar-img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 160px;
+    margin-top: -100px !important;
+    padding: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: rgba(255,255,255,0.7);
+    box-shadow: 0px -2px 8px gray;
+}
+
+.login-screen {
+    background: url("../images/alexbelyakov_1331935331_55.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0px auto;
+    padding: 8% 0px;
+}
+
+.login-screen .main{
+    max-width: 960px;
+    margin: auto;
+}
+form.login-form {
+    color: black;
+    max-width: 450px;
+    margin: auto;
+    border: 2px solid white;
+    padding: 20px;
+    background: rgba(255,255,255,0.7);
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px gray;
+}
+body:after, body:before, html:after, html:before {
+    display: none;
+    line-height: normal;
+
+}
+.guest_login_div {
+    display: none;
+}
+.login-type-wrap {
+    max-width: 380px;
+    margin: 10px auto;
+}
+.login-window {
+    min-height: 450px;
+    max-width: 380px;
+    margin: auto;
+    width: 100%;
+}
+.login-window input[type="text"], .login-window input[type="password"], .login-window input[type="email"] {
+    width: 100%;
+}
+
+/* Login as */
+.login-type-wrap input[type="radio"] {
+    display: none;
+}
+
+.login-type-wrap label {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 50%;
+    font-size: 1rem;
+    line-height: 2.375rem;
+    text-align: center;
+    text-shadow: 0 1px 0 white;
+    cursor: pointer;
+    transition: all .5s;
+    box-sizing: border-box;
+    box-shadow: inset 0 5px 2px 0 rgba(255,255,255,.6), inset 0 0 0 1px #b8b8b8, 0 2px 2px 0 rgba(0,0,0,.4);
+    background: #fbfbfb;
+    background: -webkit-linear-gradient(top, #fbfbfb 0%,#dddddc 100%);
+    background: -moz-linear-gradient(top, #fbfbfb 0%, #dddddc 100%);
+    background: -o-linear-gradient(top, #fbfbfb 0%,#dddddc 100%);
+    background: -ms-linear-gradient(top, #fbfbfb 0%,#dddddc 100%);
+    background: linear-gradient(to bottom, #fbfbfb 0%,#dddddc 100%);
+    z-index: 2;
+}
+
+.login-type-wrap label[for="RegisteredLogin"] {
+    border-radius: 20px 0 0 20px;
+}
+
+.login-type-wrap label[for="GuestLogin"] {
+    border-radius: 0 20px 20px 0;
+}
+
+.login-type-wrap input[type="radio"]:checked + label {
+    box-shadow: inset -1px 2px 2px 0 rgba(0,0,0,.3), inset 0 0 0 1px #e8e8e8;
+    color: #8c8c8c;
+    background: #e5e4e4;
+    background: -webkit-linear-gradient(top, #e5e4e4 1%,#f1f1f1 100%);
+    background: -moz-linear-gradient(top, #e5e4e4 1%, #f1f1f1 100%);
+    background: -o-linear-gradient(top, #e5e4e4 1%,#f1f1f1 100%);
+    background: -ms-linear-gradient(top, #e5e4e4 1%,#f1f1f1 100%);
+    background: linear-gradient(to bottom, #e5e4e4 1%,#f1f1f1 100%);
+    z-index: 1;
+}
+/* End Login as */
